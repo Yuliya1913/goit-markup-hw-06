@@ -140,6 +140,66 @@ img {
 }
 
 
+
+.modal-form {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+.modal-title { 
+    padding-top: 40px;
+        
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #212121;
+    margin-bottom: 12px;
+}
+
+
+.name-label {
+    
+    font-weight: 400;
+    font-size: 12px;
+    line-height:1.17;
+        
+    
+    letter-spacing: 0.01em;
+    
+    color: #757575;
+    
+    
+}
+
+.input-wrapper{
+ position: relative;
+ margin-bottom: 10px;
+}
+
+.modal-icon {
+    position: absolute;
+    top: 25%;
+    left: 12px;
+
+}
+
+.name-input {
+    display: block;
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+}
+
+.modal-coment{
+    display: block;width: 100%;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+}
 /*-------------header-------------*/
 
 
@@ -760,7 +820,7 @@ img {
     margin-bottom: 20px;
 }
 
-.booking-groops {
+.booking-groups {
     display: flex;
     gap: 12px;
     position: relative;
@@ -811,6 +871,7 @@ position: relative;
    left: 148px;
  
 }
+
 
 /*----------------------Портфоліо------------------ */
 
