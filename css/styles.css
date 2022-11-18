@@ -867,6 +867,12 @@ img {
 
 /* Forma */
 
+.booking-form {
+    display: flex;
+    gap: 12px;
+    position: relative;
+}
+
 .booking-text-form {
     font-weight: 700;
     font-size: 14px;
@@ -879,11 +885,11 @@ img {
     margin-bottom: 20px;
 }
 
-.booking-groups {
+/* .booking-groups {
     display: flex;
     gap: 12px;
     position: relative;
-}
+} */
 
 .booking-emai-field {
     width: 358px;
