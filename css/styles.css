@@ -242,18 +242,17 @@ outline-color: #2196F3;
 }
 
 
-
-
-
-
 .checkbox-group {
+    display: block;
     display: flex;
     align-items: center;
     margin-bottom: 30px;
+
 }
 
 .checkbox-input {
-    margin-right: 8px;
+    margin-right: 8px;   
+    
 }
 
 .checkbox-input {
@@ -269,21 +268,25 @@ outline-color: #2196F3;
     margin: -1px;
 }
 
-.checkbox-input:checked+.new-icon {
+
+.checkbox-input:checked + .new-icon {
     border-color: #000000;
     background-color: #2196F3;
     background-image: url(../images/modal-window/icon.svg);
     background-size: contain;
     background-origin: border-box;
+    background-position: center;
+    
 }
 
 .new-icon {
     display: inline-block;
     width: 16px;
     height: 15px;
-    border: 1px solid #212121;
+    border: 1px solid #000000;
     border-radius: 2px;
     margin-right: 8px;
+    
 }
 
 
@@ -295,6 +298,7 @@ outline-color: #2196F3;
     letter-spacing: 0.03em;
     color: #757575;
 }
+
 
 
 .modal-link {
